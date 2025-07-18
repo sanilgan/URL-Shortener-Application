@@ -98,15 +98,5 @@ Bu projede uygulanabilecek bazı fark yaratan özellikler:
 - En çok tıklanan URL’leri sıralayan istatistik sayfası  
 - Kullanıcı girişi / hesap oluşturma  
 - QR kod üretimi  
-- IP adresine göre coğrafi analiz  
 
----
-
-## 11. Projemizde Fark Yaratacak Özellikler  
-
-| Özellik                       | Açıklama                                                                 |
-|-------------------------------|--------------------------------------------------------------------------|
-| **Gelişmiş Tıklama İstatistikleri** | Kullanıcı linke tıkladığında IP adresi, tarayıcı türü, tıklanma zamanı gibi veriler loglanabilir. |
-| **Basit ve Hızlı Yapı**       | Üyelik veya giriş olmadan direkt URL kısaltma kullanılabilir. Kullanıcıyı yormaz. |
-| **Açık API**                  | Dış sistemlerin bağlanabileceği bir REST API sunulacak. Yani geliştiriciler sizin sistemi kullanabilir. |
 

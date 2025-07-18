@@ -1,7 +1,9 @@
 URL KISALTICI UYGULAMASI – PROJE RAPORU
 
 Hazırlayan: Zeynep Anılgan
+
 Şirket: Talya Bilişim
+
 Tarih: 16.07.2025 
 
 1. Proje Başlığı
@@ -83,11 +85,6 @@ En çok tıklanan URL’leri sıralayan istatistik sayfası
 Kullanıcı girişi / hesap oluşturma
 QR kod üretimi
 IP adresine göre coğrafi analiz
-
-
-
-
-
 
 11. Rakiplerin Yaptığı, Bizim Yapmayacağımız Özellikler
 Özellik

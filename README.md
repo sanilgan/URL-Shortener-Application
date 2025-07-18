@@ -102,18 +102,7 @@ Bu projede uygulanabilecek bazı fark yaratan özellikler:
 
 ---
 
-## 11. Rakiplerin Yaptığı, Bizim Yapmayacağımız Özellikler  
-
-| Özellik                 | Rakipler             | Biz                         |
-|-------------------------|----------------------|-----------------------------|
-| **Markalı Domain**      | Bitly, Rebrandly     | ❌ İlk versiyonda olmayacak |
-| **QR Kod Üretimi**      | Bitly                | ❌ İkinci aşamaya bırakıldı |
-| **Gelişmiş Coğrafi Analiz** | Rebrandly, Bitly | ❌ Olmayacak                 |
-| **Kullanıcı Hesabı ile Takip** | Çoğu rakip   | ❌ Üyelik sistemi olmayacak |
-
----
-
-## 12. Projemizde Fark Yaratacak Özellikler  
+## 11. Projemizde Fark Yaratacak Özellikler  
 
 | Özellik                       | Açıklama                                                                 |
 |-------------------------------|--------------------------------------------------------------------------|

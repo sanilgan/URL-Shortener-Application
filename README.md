@@ -7,22 +7,26 @@ Hazırlayan: Zeynep Anılgan
 Tarih: 16.07.2025 
 
 1. Proje Başlığı
+   
 URL Kısaltıcı Uygulaması
 
-2. Proje Açıklaması
+3. Proje Açıklaması
+   
 Bu proje, kullanıcıların uzun URL’leri daha kısa, paylaşılabilir ve izlenebilir bağlantılara dönüştürmesini amaçlamaktadır. Sistem, oluşturulan kısa bağlantıları veritabanında saklar ve her tıklamada kullanıcıyı orijinal uzun URL’ye yönlendirir. Aynı zamanda tıklama sayısını ve (opsiyonel olarak) IP, zaman gibi detayları kaydederek analiz yapılmasını sağlar.
 Kullanılacak temel teknolojiler:
 Backend: Node.js (Express.js)
 Veritabanı: Microsoft SQL Server
 Frontend: HTML / CSS / JavaScript
 
-3. Pazar Araştırması ve Kullanım Verileri
+5. Pazar Araştırması ve Kullanım Verileri
+   
 URL Kısaltıcıların Kullanımı:
 Kullanım Oranı: Tüm web sitelerinin yaklaşık %4.5’i URL kısaltıcı kullanmaktadır.
 Kullanım Yoğunluğu: Bu sitelerin %95.2’si yalnızca bir URL kısaltıcı kullanırken; %4.3’ü iki, %0.6’sı ise üç veya daha fazla URL kısaltıcı entegre etmiştir.
 
 
-4. Rakip Analizi
+7. Rakip Analizi
+   
 Platform
 Özellikler
 Bitly
@@ -35,20 +39,23 @@ ShortenWorld
 Hızlı çalışması ve çok yönlülüğüyle dikkat çeker.
 
 
-5. Potansiyel Fırsatlar
+9. Potansiyel Fırsatlar
+    
 Bu projede uygulanabilecek bazı fark yaratan özellikler:
 Gelişmiş Analizler: Tıklama verilerinin detaylı şekilde izlenmesi.
 Markalı URL Desteği: Şirketlere özel kısa alan adlarıyla güven artırma.
 Mobil Uyumlu Tasarım: Tüm cihazlarda kullanıcı dostu deneyim.
 API Entegrasyonu: Harici sistemlerle bağlantı kurmak için REST API desteği.
 
-6. Proje Amacı
+11. Proje Amacı
+    
 Bu sistemin temel amacı:
 Uzun URL’leri daha kısa ve kolay paylaşılabilir hale getirmek.
 Her tıklamada, kısa URL’yi orijinal adrese yönlendirmek.
 Bu tıklamaları saymak ve (gerekirse) analiz etmek için kayıt altına almak.
 
-7. Kullanıcı Akışı
+13. Kullanıcı Akışı
+    
 Kullanıcı sisteme uzun bir URL girer.
 Sistem benzersiz kısa bir kod oluşturur.
 Bu kod ve URL, veritabanına kaydedilir.
@@ -57,7 +64,8 @@ Kısa link tıklandığında sistem yönlendirme yapar.
 Aynı zamanda tıklama sayısı artar ve detaylı kayıt tutulur.
 
 
-8. Temel Proje Gereksinimleri
+15. Temel Proje Gereksinimleri
+    
 Kısa URL üretme (otomatik kısa kod)
 Yönlendirme işlemi (GET /:shortcode)
 Tıklanma sayısını güncelleme
@@ -65,7 +73,8 @@ IP adresi, tarih gibi verileri loglama (opsiyonel)
 En çok tıklanan linkleri listeleme (2. hafta eklenecek)
 RESTful API aracılığıyla erişim sağlama
 
-9. Teknik Altyapı Özeti
+17. Teknik Altyapı Özeti
+    
 Bileşen
 Açıklama
 Backend
@@ -80,13 +89,15 @@ Bağlantı Kütüphanesi
 mssql npm paketi ile Node.js–MSSQL bağlantısı
 
 
-10. Gelecek Geliştirmeler
+19. Gelecek Geliştirmeler
+    
 En çok tıklanan URL’leri sıralayan istatistik sayfası
 Kullanıcı girişi / hesap oluşturma
 QR kod üretimi
 IP adresine göre coğrafi analiz
 
-11. Rakiplerin Yaptığı, Bizim Yapmayacağımız Özellikler
+21. Rakiplerin Yaptığı, Bizim Yapmayacağımız Özellikler
+    
 Özellik
 Rakipler
 Biz
@@ -104,7 +115,7 @@ Kullanıcı Hesabı ile Takip
 ❌ Üyelik sistemi olmayacak
 
 
-12. Projemizde Fark Yaratacak Özellikler
+23. Projemizde Fark Yaratacak Özellikler
 
 Özellik
 Açıklama

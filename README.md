@@ -12,11 +12,11 @@
 ---
 
 ## 2. Proje Açıklaması  
-Bu proje, kullanıcıların uzun URL’leri daha kısa, paylaşılabilir ve izlenebilir bağlantılara dönüştürmesini amaçlamaktadır. Sistem, oluşturulan kısa bağlantıları veritabanında saklar ve her tıklamada kullanıcıyı orijinal uzun URL’ye yönlendirir. Aynı zamanda tıklama sayısını ve (opsiyonel olarak) IP, zaman gibi detayları kaydederek analiz yapılmasını sağlar.
+Bu proje, kullanıcıların uzun URL’leri daha kısa, paylaşılabilir ve izlenebilir bağlantılara dönüştürmesini amaçlamaktadır. Sistem, oluşturulan kısa bağlantıları veritabanında saklar ve her tıklamada kullanıcıyı orijinal uzun URL’ye yönlendirir. Aynı zamanda tıklama sayısı gibi detayları kaydederek analiz yapılmasını sağlar.
 
 **Kullanılacak Temel Teknolojiler:**
-- **Backend:** Node.js (Express.js)
-- **Veritabanı:** Microsoft SQL Server
+- **Backend:** Node.js (Express.js , TypeScript)
+- **Veritabanı:** PostgreSQL
 - **Frontend:** HTML / CSS / JavaScript
 
 ---
@@ -56,7 +56,7 @@ Bu projede uygulanabilecek bazı fark yaratan özellikler:
 ## 6. Proje Amacı  
 - Uzun URL’leri daha kısa ve kolay paylaşılabilir hale getirmek.  
 - Her tıklamada, kısa URL’yi orijinal adrese yönlendirmek.  
-- Bu tıklamaları saymak ve (gerekirse) analiz etmek için kayıt altına almak.  
+- Bu tıklamaları saymak ve analiz etmek için kayıt altına almak.  
 
 ---
 
@@ -79,21 +79,11 @@ Bu projede uygulanabilecek bazı fark yaratan özellikler:
 - En çok tıklanan linkleri listeleme (2. hafta eklenecek)  
 - RESTful API aracılığıyla erişim sağlama  
 
----
 
-## 9. Teknik Altyapı Özeti  
-
-| Bileşen             | Açıklama                                      |
-|---------------------|-----------------------------------------------|
-| **Backend**         | Node.js + Express.js                          |
-| **Veritabanı**      | Microsoft SQL Server                          |
-| **Frontend**        | HTML / CSS / JavaScript                       |
-| **Veritabanı Aracı**| DBeaver ile yönetim ve sorgulama              |
-| **Bağlantı Kütüphanesi** | `mssql` npm paketi ile Node.js–MSSQL bağlantısı |
 
 ---
 
-## 10. Gelecek Geliştirmeler  
+## 9. Gelecek Geliştirmeler  
 
 - En çok tıklanan URL’leri sıralayan istatistik sayfası  
 - Kullanıcı girişi / hesap oluşturma  

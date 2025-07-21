@@ -75,18 +75,16 @@ Bu projede uygulanabilecek bazı fark yaratan özellikler:
 - Kısa URL üretme (otomatik kısa kod)  
 - Yönlendirme işlemi (GET /:shortcode)  
 - Tıklanma sayısını güncelleme  
-- IP adresi, tarih gibi verileri loglama (opsiyonel)  
-- En çok tıklanan linkleri listeleme (2. hafta eklenecek)  
-- RESTful API aracılığıyla erişim sağlama  
-
-
-
+- IP adresi, tarih gibi verileri loglama 
+  
 ---
 
 ## 9. Gelecek Geliştirmeler  
 
 - En çok tıklanan URL’leri sıralayan istatistik sayfası  
 - Kullanıcı girişi / hesap oluşturma  
-- QR kod üretimi  
+- QR kod üretimi
+- En çok tıklanan linkleri listeleme  
+  
 
 
